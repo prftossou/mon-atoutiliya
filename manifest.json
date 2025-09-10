@@ -1,4 +1,5 @@
 {
+  "id": "/",
   "name": "Atoutiliya",
   "short_name": "Atoutiliya",
   "description": "Boutique en ligne Atoutiliya - trouvez vos produits au meilleur prix.",
@@ -9,12 +10,12 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMim1VRWIxSj-XMVUGmMZG_W2hCLks0fHmfZTRMnupwoNavcP25LhYOwhIR6bzOcBy00uT8E0RS34Qizq6cY4GBHHmgMwmZi0_tIHzJQRNpYuc6tfGc0K58JB6uuG_tptfmaoXi4L1oH_u6TviOkRmLW3Kx0z6oQoEGazyULH6nClMyUZBfm3OJGANe6k/s192/Recherchez%20quelque%20chose.png",
+      "src": "https://cdn.jsdelivr.net/gh/prftossou/mon-atoutiliya@main/Atoutiliya%20logo%20192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMim1VRWIxSj-XMVUGmMZG_W2hCLks0fHmfZTRMnupwoNavcP25LhYOwhIR6bzOcBy00uT8E0RS34Qizq6cY4GBHHmgMwmZi0_tIHzJQRNpYuc6tfGc0K58JB6uuG_tptfmaoXi4L1oH_u6TviOkRmLW3Kx0z6oQoEGazyULH6nClMyUZBfm3OJGANe6k/s512/Recherchez%20quelque%20chose.png",
+      "src": "https://cdn.jsdelivr.net/gh/prftossou/mon-atoutiliya@main/Atoutiliya%20logo%20512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
