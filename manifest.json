@@ -1,26 +1,36 @@
 {
-  "id": "com.atoutiliya.store",
-  "name": "Atoutiliya - Boutique en ligne",
+  "name": "Atoutiliya",
   "short_name": "Atoutiliya",
-  "description": "Atoutiliya est votre boutique en ligne pour trouver facilement vos produits au meilleur prix.",
+  "description": "Boutique en ligne Atoutiliya - trouvez vos produits au meilleur prix.",
   "start_url": "/",
   "scope": "/",
   "display": "fullscreen",
-  "background_color": "#ffffff",
-  "theme_color": "#2a8a2f",
   "orientation": "portrait-primary",
+  "theme_color": "#2a8a2f",
+  "background_color": "#ffffff",
+  "lang": "fr",
   "icons": [
     {
       "src": "https://cdn.jsdelivr.net/gh/prftossou/mon-atoutiliya@main/Atoutiliya%20logo%20192.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     },
     {
       "src": "https://cdn.jsdelivr.net/gh/prftossou/mon-atoutiliya@main/Atoutiliya%20logo%20512.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Accueil",
+      "url": "/",
+      "icons": [
+        {
+          "src": "https://cdn.jsdelivr.net/gh/prftossou/mon-atoutiliya@main/Atoutiliya%20logo%20192.png",
+          "sizes": "192x192"
+        }
+      ]
     }
   ]
 }
