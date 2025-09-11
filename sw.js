@@ -1,11 +1,11 @@
-const CACHE_NAME = 'atoutiliya-cache-v2';
+const CACHE_NAME = 'atoutiliya-cache-v3';
 const urlsToCache = [
   '/',
   '/?utm_source=pwa',
-  '/search/label/MONTRE',  // Exemple pour catégorie produits
-  '/p/chariot.html',  // Si vous avez une page panier
+  '/search/label/MONTRE',
+  '/p/chariot.html',
   '/p/contact.html',
-  'https://www.atoutiliya.com/'  // Fallback
+  'https://www.atoutiliya.com/'
 ];
 
 // Installation : Précache les URLs
@@ -32,7 +32,7 @@ self.addEventListener('activate', event => {
   );
 });
 
-// Fetch : Stratégie cache-first pour vitesse, fallback network
+// Fetch : Stratégie cache-first
 self.addEventListener('fetch', event => {
   if (event.request.url.startsWith(self.location.origin)) {
     event.respondWith(
@@ -50,4 +50,3 @@ self.addEventListener('fetch', event => {
     event.respondWith(fetch(event.request));
   }
 });
-
