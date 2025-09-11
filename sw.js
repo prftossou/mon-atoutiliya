@@ -2,8 +2,8 @@ const CACHE_NAME = 'atoutiliya-cache-v2';
 const urlsToCache = [
   '/',
   '/?utm_source=pwa',
-  '/search/label/%C3%89LECTRONIQUE',  // Exemple pour catégorie produits
-  '/p/cart.html',  // Si vous avez une page panier
+  '/search/label/MONTRE',  // Exemple pour catégorie produits
+  '/p/chariot.html',  // Si vous avez une page panier
   '/p/contact.html',
   'https://www.atoutiliya.com/'  // Fallback
 ];
@@ -50,3 +50,4 @@ self.addEventListener('fetch', event => {
     event.respondWith(fetch(event.request));
   }
 });
+
